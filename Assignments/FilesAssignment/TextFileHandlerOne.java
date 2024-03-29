@@ -8,12 +8,12 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class QNo2TextFileHandler {
+public class TextFileHandlerOne {
 
 	public static void main(String[] args) {
 		Map<String, String> countryMap =new HashMap<String, String>();
 		try {
-			File file = new File("D:\\prodapt\\output\\country.csv");
+			File file = new File("D:\\output\\country.csv");
 			FileReader     fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
 			String line = "";
